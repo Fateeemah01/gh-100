@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>FirstBank Mobile Money — Get Started</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">
+          <img src="./assets/logo-placeholder.svg" alt="FirstBank" class="logo" />
+        </a>
+        <nav class="nav" id="nav">
+          <a href="#features">Features</a>
+          <a href="#how">How it works</a>
+          <a href="#download" class="btn btn-outline">Download</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <h1>FirstBank Mobile Money</h1>
+            <p class="lead">Fast, secure, and intuitive mobile money for everyday banking — send, pay, and manage money from your phone.</p>
+
+            <div class="hero-ctas">
+              <a href="#download" class="btn btn-primary">Get the app</a>
+              <a href="#how" class="btn btn-ghost">Learn how</a>
+            </div>
+
+            <ul class="trust-list">
+              <li>Trusted by millions</li>
+              <li>Bank-level security</li>
+              <li>24/7 support</li>
+            </ul>
+          </div>
+
+          <div class="hero-media">
+            <div class="phone-mock">
+              <div class="phone-header">Welcome</div>
+              <div class="phone-body">
+                <div class="balance">Balance: <strong>₦ 42,500.00</strong></div>
+                <div class="actions">
+                  <button class="mini">Send</button>
+                  <button class="mini">Pay</button>
+                  <button class="mini">Top Up</button>
+                </div>
+              </div>
+            </div>
+            <p class="screenshot-caption">App preview — simple, secure, designed for mobile.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section features">
+        <div class="container">
+          <h2>Features</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Instant transfers</h3>
+              <p>Send money to bank accounts or phone numbers instantly with minimal fees.</p>
+            </article>
+            <article class="card">
+              <h3>Bill payments</h3>
+              <p>Pay utilities, airtime and subscriptions quickly from within the app.</p>
+            </article>
+            <article class="card">
+              <h3>Secure access</h3>
+              <p>Biometric lock, PIN protection and device management to keep your money safe.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="section how">
+        <div class="container">
+          <h2>How it works</h2>
+          <ol class="steps">
+            <li>
+              <strong>Create an account</strong>
+              <p>Sign up with your phone number and link your bank details securely.</p>
+            </li>
+            <li>
+              <strong>Add money</strong>
+              <p>Top up with bank transfer, card or cash at partner locations.</p>
+            </li>
+            <li>
+              <strong>Send and pay</strong>
+              <p>Use quick-pay, scan QR codes, or schedule recurring payments.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="download" class="section cta">
+        <div class="container cta-inner">
+          <div>
+            <h2>Ready to go cashless?</h2>
+            <p>Download FirstBank Mobile Money and start managing your money on the go.</p>
+            <div class="store-buttons">
+              <a class="store-btn" href="#">App Store</a>
+              <a class="store-btn" href="#">Google Play</a>
+            </div>
+          </div>
+
+          <form id="notifyForm" class="notify-form" aria-label="Notify form">
+            <label for="phone">Get the link via SMS</label>
+            <input id="phone" name="phone" type="tel" placeholder="+234 800 000 0000" required>
+            <button class="btn btn-primary" type="submit">Send link</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© FirstBank Mobile Money — placeholder site. Replace logo & brand assets with official files.</p>
+        <nav class="footer-nav">
+          <a href="#">Support</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
