@@ -1,2 +1,5 @@
-# gh-100
-Repo for GH-100
+# Firstmobile
+
+Website for firstbank mobile banking
+
+copyight 2026
